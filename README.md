@@ -49,8 +49,10 @@ enum PayloadType {
 	V4_GENERIC_BYTES = 14;
 }
 ```
+## Releases
+There are windows and linux binaries that are linked statically libgcc and libstdc++, no problems are expected to happen.
 
-
+## Build
 
 ### Necessary Dependencies
 1. A C++ compiler that supports C++20.
