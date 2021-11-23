@@ -29,7 +29,7 @@ Expects json with the following format:
      ]
 }
  ```
- Where type is an integer enum (DISCLAIMER! Only ScalarDouble is Implemented!):
+ Where type is an integer enum (DISCLAIMER! Only ScalarDouble and ScalarInt are implemented! To extend include the required data type into the parse function https://github.com/lnls-sirius/epics-archiver-pb-parser/blob/main/src/parse.cpp#L68 ):
 ```c++
 enum PayloadType {
 	SCALAR_STRING = 0;      
