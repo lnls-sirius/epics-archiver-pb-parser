@@ -63,32 +63,20 @@ The following compilers should work:
   * [gcc 9+](https://gcc.gnu.org/)
 
   * [clang 10+](https://clang.llvm.org/)
-  <details>
+  
   - Debian/Ubuntu
+  
   ```command
     apt install llvm-12 llvm-12-doc clang-12 clang-tidy-12 clang-format-12 clangd-12 lld-12 lldb-12
   ```
-  </details>
-
+  
   * [Visual Studio 2019 or higher](https://visualstudio.microsoft.com/)
 
 2. [Conan](https://conan.io/)
-	<details>
-	<summary>Install Command</summary>
 
-	- Via pip - https://docs.conan.io/en/latest/installation.html#install-with-pip-recommended
-
-			pip install --user conan
-
-	- Windows:
-
-			choco install conan -y
-
-	- MacOS:
-
-			brew install conan
-
-	</details>
+	```command
+	pip install --user conan
+	```
 
 3. [CMake 3.15+](https://cmake.org/)
 
